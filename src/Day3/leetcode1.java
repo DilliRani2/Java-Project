@@ -1,0 +1,12 @@
+package Day3;
+
+public class leetcode1 {
+        public int smallestNumber(int n) {
+            int k = 1;
+            while (true) {
+                int x = (1 << k) - 1;
+                if (x >= n) return x;
+                k++;
+            }
+        }
+}
