@@ -1,46 +1,47 @@
 package Day3.Constructor;
 
 class Students{
-    int rno;
     String name;
+    int rno;
     String dept;
     static String college;
-    // Parameterized Constructor
+
     public Students(String name,int rno,String dept,String college){
         this.name=name;
         this.rno=rno;
         this.dept=dept;
         this.college=college;
     }
-    //No-args Constructor
+    //    No-args Constructor
     public Students(){
-        this("Bindhu",14,"IT","MSAJCE");
-    }
-    //Copy Constructor
-    public Students(Students s1){
-        this.name=s1.name;
-        this.rno=s1.rno;
-        this.dept=s1.dept;
-        this.college=s1.college;
+
     }
     public void display(){
-        System.out.println("RNo: "+rno+"\nName: "+name+"\nDept: "+dept+"\nCollege Name: "+college);
+        System.out.println("Name: "+name+"\nRno: "+rno+"\nDept: "+dept+"\nCollege Name: "+college);
     }
-
 }
 public class Constructor {
     public static void main(String[] args) {
-        Students s1=new Students("Dilli",9,"IT","MSAJCE");
+        Students.college="MSAJCE";
+        Students s1=new Students("Dilli",26,"IT","MSAJCE");
         s1.display();
-        System.out.println("-----------------------------------------");
+        System.out.println("--------------------------------------");
         Students s2=new Students();
         s2.name="Rani";
-        s2.rno=26;
-        s2.dept="Mech";
+        s2.rno=76;
+        s2.dept="Civil";
         s2.display();
-        System.out.println("-------------------------------------");
-        Students s3=new Students(s1);
+        Students s3=new Students();
+        s3.name="Atchaya";
+        s3.rno=14;
+        s3.dept="AIDS";
         s3.display();
         Students s4=new Students();
+        s4.name="Abi";
+        s4.rno=35;
+        s4.dept="CSE";
+        s4.display();
+
+
     }
 }
