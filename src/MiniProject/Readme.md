@@ -1,5 +1,3 @@
-👇
-
 📚 Library Management System (Mini Project 1)
 
 This is a simple Library Management System built in Java using IntelliJ IDEA.
@@ -7,6 +5,7 @@ It allows users to add books, add members, issue books, return books with fines,
 The system also logs every important action into a log file.
 
 🚀 Features
+
 ✔️ Add Books
 
 Store book details like:
@@ -77,11 +76,17 @@ InvalidReturnException
 
 🧩 Project Structure
 MiniProject/
+
  ├── Book.java
+ 
  ├── Member.java
+ 
  ├── library.java
+ 
  ├── BookNotAvailableException.java
+ 
  ├── InvalidReturnException.java
+ 
  └── LibraryManagementSystem.java
 
 ▶️ How to Run (IntelliJ IDEA)
