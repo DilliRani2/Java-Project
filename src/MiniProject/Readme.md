@@ -4,7 +4,7 @@ This is a simple Library Management System built in Java using IntelliJ IDEA.
 It allows users to add books, add members, issue books, return books with fines, and view the inventory.
 The system also logs every important action into a log file.
 
-🚀 Features
+🚀 Features::
 
 ✔️ Add Books
 
@@ -18,7 +18,7 @@ Author
 
 Availability status
 
-✔️ Add Members
+✔️ Add Members:
 
 Register members with:
 
@@ -28,7 +28,7 @@ Name
 
 Borrowed book records
 
-✔️ Issue Books
+✔️ Issue Books:
 
 Checks if the book exists
 
@@ -38,7 +38,7 @@ Checks if the member is valid
 
 Logs every issued book in a library_log.txt file
 
-✔️ Return Books
+✔️ Return Books:
 
 Validates if the member actually borrowed the book
 
@@ -48,7 +48,7 @@ Calculates fine (₹2 per late day)
 
 Logs the return with fine amount
 
-✔️ Show Inventory
+✔️ Show Inventory:
 
 Displays all books with:
 
@@ -60,13 +60,13 @@ Author
 
 Status (Available / Issued)
 
-✔️ Log File Support
+✔️ Log File Support:
 
 Every operation is automatically logged with a timestamp:
 
 library_log.txt
 
-✔️ Custom Exceptions
+✔️ Custom Exceptions:
 
 Handled using two user-defined exceptions:
 
@@ -89,7 +89,7 @@ MiniProject/
  
  └── LibraryManagementSystem.java
 
-▶️ How to Run (IntelliJ IDEA)
+▶️ How to Run (IntelliJ IDEA)::
 
 Open IntelliJ IDEA
 
@@ -101,7 +101,8 @@ Run the LibraryManagementSystem main file
 
 Use the menu to manage books and members
 
-📺 Sample Menu
+📺 Sample Menu::
+
 ===== Library Menu =====
 1. Add a Book
 2. Add a Member
@@ -110,17 +111,23 @@ Use the menu to manage books and members
 5. Show Inventory
 6. Exit
 
-📘 Example Output
+📘 Example Output::
+
 Enter Book ID: B10
+
 Enter Title: Java Programming
+
 Enter Author: James
+
 Book Added Successfully!
 
 Enter Book ID to Issue: B10
+
 Enter Member ID: M101
+
 ✅ Book Issued Successfully!
 
-📝 What I Learned
+📝 What I Learned::
 
 This project helped me understand:
 
